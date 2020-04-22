@@ -18,6 +18,15 @@
             postEmail(theEmail, inputBox);
         }
 
+        function register2()
+        {
+            var inputBox = document.getElementById('emailin2');
+            var theEmail = inputBox.value;
+            console.log(theEmail)
+            console.log(inputBox)
+            postEmail(theEmail, inputBox);
+        }
+
         function postEmail(email, inputBox)
         {
             var xhttp = new XMLHttpRequest();
@@ -36,8 +45,20 @@
                     inputBox.value = "";
                 }
             }
-            xhttp.open("GET", "https://starquest-backend.glitch.me/register?email="+email, true);
-            xhttp.send();
+
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+            {
+                xhttp.open("GET", "https://starquest-backend.glitch.me/register?email="+email, true);
+                xhttp.send();
+            }
+            else
+            {
+                alert("Please enter a valid email address.")
+                inputBox.value = "";
+            }
+
+
+            
         }
     </script>
     <meta content="AnimaApp.com - Design to code, Automated." name="author" />
@@ -114,7 +135,7 @@
             <img alt="Image" anima-src="./img/web-untitledartwork-8.png" class="untitledartwork8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
             <img alt="Image" anima-src="./img/web-untitledartwork-74.png" class="untitledartwork74" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
             <img alt="Image" anima-src="./img/web-rectangle-2-2.png" class="rectangle21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-            <img alt="Image" anima-src="./img/web-group-12.png" class="group121" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+            <input type="image" anima-src="./img/web-group-12.png" class="group121" src="./img/web-group-12.png" onclick='register2()'>
             <div class="registerforupdates">
                 Register for updates
             </div>
@@ -127,11 +148,7 @@
                 <br />Kids can create their own avatar to present their personality and redeem gear for their avatar
             </div>
             <img alt="Image" anima-src="./img/web-untitledartwork-10-copy-2.png" class="untitledartwork10copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-            <div class="rectangle31">
-            </div>
-            <div class="emailaddress1">
-                Email address
-            </div>
+            <input id='emailin2' class="rectangle31" placeholder="Email Address" style="padding-left: 10px; font-size: 21px"> </input>
             <div class="receivethelatestn">
                 Receive the latest news, offers, and feature updates
             </div>
