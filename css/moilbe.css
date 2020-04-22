@@ -1,12 +1,10 @@
-input:focus, textarea:focus, select:focus{
-        outline: none;
-    }
 
-.web {
+
+.moilbe {
   width               : 100%;
-  min-width           : 1440px;
+  min-width           : 320px;
   height              : 100vh;
-  min-height          : 4833px;
+  min-height          : 2024px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -30,681 +28,714 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.web .group13 {
+.moilbe .rectangle2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -220px;
-  height              : 2007px;
-  width               : 1474px;
+  top                 : 83px;
+  height              : 554px;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : -17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork80 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -7px;
+  height              : 101px;
+  width               : 74px;
   position            : absolute;
   margin              : 0;
   left                : -22px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .group13 .rectangle23 {
+.moilbe .untitledartwork83 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 536px;
-  height              : 1470px;
-  width               : 1455px;
+  top                 : -100px;
+  height              : 310px;
+  width               : 256px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 54px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork81 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : 141px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .group13 .untitledartwork80 {
+.moilbe .untitledartwork82 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 205px;
-  height              : 345px;
-  width               : 251px;
+  top                 : -67px;
+  height              : 262px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 187px;
+  height              : 25px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .emailaddress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 0.68;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.moilbe .agamifiedgoaltrac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.moilbe .turneverydaytasks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : auto;
+  width               : 123px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .gamification {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : auto;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.moilbe .involvement {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : auto;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.moilbe .involveparentsand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .rectangle21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 593px;
+  height              : 425px;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .a1parentkidaddsg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 773px;
+  height              : auto;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .a2parentkidaddsr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 773px;
+  height              : auto;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .a3kidcompletesgoa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 922px;
+  height              : auto;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .a4kidredeemsrewar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 922px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .howitworks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 644px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.moilbe .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : 25px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .rectangle22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1017px;
+  height              : 1751px;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : -7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1511px;
+  height              : 289px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  transform           : rotate(270deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork74 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1499px;
+  height              : 211px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .rectangle23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1730px;
+  height              : 330px;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : -7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .rectangle31 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1901px;
+  height              : 25px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .emailaddress1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1908px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 0.68;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.moilbe .group121 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1942px;
+  height              : 25px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .registerforupdates {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1810px;
+  height              : auto;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(77, 56, 149, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.moilbe .goaltracking {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1100px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.moilbe .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1504px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.moilbe .starquest {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1302px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.moilbe .parentsandkidscan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1146px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .kidscancreatethei {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1550px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .withthestarsgaine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1348px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.moilbe .appfeatures {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1066px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.moilbe .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1100px;
+  height              : 189px;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .group .parentviewcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 177px;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .group .iphone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 188px;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .group13 .untitledartwork83 {
+.moilbe .untitledartwork10 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -86px;
-  height              : 1053px;
-  width               : 869px;
+  top                 : 1451px;
+  height              : 203px;
+  width               : 167px;
   position            : absolute;
   margin              : 0;
-  left                : 259px;
-  transform           : rotate(-270deg);
+  left                : -61px;
+  transform           : rotate(17deg);
   opacity             : 1.0;
 }
-.web .group13 .untitledartwork81 {
+.moilbe .receivethelatestn {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 770px;
-  height              : 369px;
-  width               : 315px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1158px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .group13 .untitledartwork82 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 826px;
-  width               : 682px;
-  position            : absolute;
-  margin              : 0;
-  left                : 405px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .rectangle3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 629px;
-  height              : 52px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  border-radius       : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .emailaddress {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 640px;
+  top                 : 1850px;
   height              : auto;
-  width               : 841px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
-  left                : 129px;
+  left                : 35px;
   transform           : rotate(0deg);
-  opacity             : 0.68;
+  opacity             : 1.0;
   font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
+  font-size           : 12.0px;
   color               : rgba(77, 56, 149, 1.0);
   text-align          : left;
-  line-height         : 29.0px;
+  line-height         : 16.0px;
 }
-.web .agamifiedgoaltrac {
+.moilbe .untitledartwork9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 351px;
-  height              : auto;
-  width               : 508px;
+  top                 : 1693px;
+  height              : 65px;
+  width               : 116px;
   position            : absolute;
   margin              : 0;
-  left                : 94px;
+  left                : -22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 295px;
+  height              : 27px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .untitledartwork43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 295px;
+  height              : 27px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1320px;
+  height              : 155px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : -41px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1571px;
+  height              : 347px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 472px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.moilbe .reward {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 487px;
+  height              : auto;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 40.0px;
+  font-size           : 16.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
-  line-height         : 55.0px;
+  line-height         : 22.0px;
 }
-.web .turneverydaytasks {
+.moilbe .motivatekidswithr {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1085px;
+  top                 : 519px;
   height              : auto;
-  width               : 263px;
+  width               : 122px;
   position            : absolute;
   margin              : 0;
-  left                : 86px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
+  font-size           : 12.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
-  line-height         : 29.0px;
+  line-height         : 16.0px;
 }
-.web .gamification {
+.moilbe .untitledartwork37 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1012px;
-  height              : auto;
-  width               : 366px;
+  top                 : 445px;
+  height              : 30px;
+  width               : 25px;
   position            : absolute;
   margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 28.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 38.0px;
-}
-.web .reward {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1012px;
-  height              : auto;
-  width               : 438px;
-  position            : absolute;
-  margin              : 0;
-  left                : 955px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 28.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 38.0px;
-}
-.web .involvement {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1012px;
-  height              : auto;
-  width               : 438px;
-  position            : absolute;
-  margin              : 0;
-  left                : 502px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 28.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 38.0px;
-}
-.web .motivatekidswithr {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1085px;
-  height              : auto;
-  width               : 233px;
-  position            : absolute;
-  margin              : 0;
-  left                : 955px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .involveparentsand {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1085px;
-  height              : auto;
-  width               : 227px;
-  position            : absolute;
-  margin              : 0;
-  left                : 502px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1321px;
-  height              : 949px;
-  width               : 1455px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
+  left                : 40px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .a1parentkidaddsg {
+.moilbe .untitledartwork10copy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1961px;
-  height              : auto;
-  width               : 250px;
+  top                 : 1627px;
+  height              : 203px;
+  width               : 167px;
   position            : absolute;
   margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .a2parentkidaddsr {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1961px;
-  height              : auto;
-  width               : 279px;
-  position            : absolute;
-  margin              : 0;
-  left                : 404px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .a3kidcompletesgoa {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1961px;
-  height              : auto;
-  width               : 217px;
-  position            : absolute;
-  margin              : 0;
-  left                : 744px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .a4kidredeemsrewar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1961px;
-  height              : auto;
-  width               : 250px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1077px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .howitworks {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1555px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 48.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 66.0px;
-}
-.web .group10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1741px;
-  height              : 174px;
-  width               : 257px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .group11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1741px;
-  height              : 174px;
-  width               : 279px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1076px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .group8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1741px;
-  height              : 176px;
-  width               : 258px;
-  position            : absolute;
-  margin              : 0;
-  left                : 403px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .group9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1741px;
-  height              : 174px;
-  width               : 301px;
-  position            : absolute;
-  margin              : 0;
-  left                : 717px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .group12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 729px;
-  height              : 52px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : 96px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .rectangle21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2271px;
-  height              : 5946px;
-  width               : 1455px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .goaltracking {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2674px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
-}
-.web .starquest {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3253px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 776px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
-}
-.web .parentsandkidscan {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2806px;
-  height              : auto;
-  width               : 532px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .withthestarsgaine {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3385px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 776px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .untitledartwork85 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2150px;
-  height              : 211px;
-  width               : 292px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1201px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .appfeatures {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2475px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 48.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 66.0px;
-}
-.web .group6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2542px;
-  height              : 492px;
-  width               : 247px;
-  position            : absolute;
-  margin              : 0;
-  left                : 995px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .untitledartwork10copy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2992px;
-  height              : 592px;
-  width               : 488px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1124px;
+  left                : 326px;
   transform           : rotate(-17deg);
   opacity             : 1.0;
 }
-.web .untitledartwork37 {
+.moilbe .untitledartwork10copy2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 912px;
-  height              : 72px;
-  width               : 60px;
+  top                 : 1228px;
+  height              : 203px;
+  width               : 167px;
   position            : absolute;
   margin              : 0;
-  left                : 955px;
-  transform           : rotate(0deg);
+  left                : 326px;
+  transform           : rotate(-17deg);
   opacity             : 1.0;
 }
-.web .untitledartwork44 {
+.moilbe .group10 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 926px;
-  height              : 53px;
-  width               : 54px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .untitledartwork43 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 912px;
+  top                 : 698px;
   height              : 64px;
-  width               : 72px;
+  width               : 92px;
   position            : absolute;
   margin              : 0;
-  left                : 502px;
+  left                : 37px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .group14 {
+.moilbe .group8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3246px;
-  height              : 443px;
-  width               : 656px;
+  top                 : 699px;
+  height              : 65px;
+  width               : 91px;
   position            : absolute;
   margin              : 0;
-  left                : -127px;
+  left                : 181px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .untitledartwork8 {
+.moilbe .group9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3654px;
-  height              : 819px;
-  width               : 806px;
+  top                 : 847px;
+  height              : 64px;
+  width               : 107px;
   position            : absolute;
   margin              : 0;
-  left                : 864px;
-  transform           : rotate(270deg);
-  opacity             : 1.0;
-}
-.web .untitledartwork74 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3742px;
-  height              : 493px;
-  width               : 141px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1054px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .rectangle22 {
+.moilbe .group11 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4233px;
-  height              : 1119px;
-  width               : 1455px;
+  top                 : 845px;
+  height              : 64px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
-  left                : -4px;
+  left                : 181px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.web .group121 {
+.moilbe .untitledartwork85 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4620px;
-  height              : 52px;
-  width               : 186px;
+  top                 : 969px;
+  height              : 78px;
+  width               : 108px;
   position            : absolute;
   margin              : 0;
-  left                : 781px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .registerforupdates {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4431px;
-  height              : auto;
-  width               : 766px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 49.0px;
-}
-.web .avatar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3742px;
-  height              : auto;
-  width               : 606px;
-  position            : absolute;
-  margin              : 0;
-  left                : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
-}
-.web .kidscancreatethei {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3874px;
-  height              : auto;
-  width               : 532px;
-  position            : absolute;
-  margin              : 0;
-  left                : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .untitledartwork10copy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3959px;
-  height              : 592px;
-  width               : 488px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1031px;
-  transform           : rotate(-17deg);
-  opacity             : 1.0;
-}
-.web .rectangle31 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 4620px;
-  height              : 52px;
-  width               : 627px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  border-radius       : 14px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.web .emailaddress1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4632px;
-  height              : auto;
-  width               : 556px;
-  position            : absolute;
-  margin              : 0;
-  left                : 129px;
-  transform           : rotate(0deg);
-  opacity             : 0.68;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .receivethelatestn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4540px;
-  height              : auto;
-  width               : 704px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 21.0px;
-  color               : rgba(77, 56, 149, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
-}
-.web .untitledartwork9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4125px;
-  height              : 197px;
-  width               : 349px;
-  position            : absolute;
-  margin              : 0;
-  left                : -98px;
+  left                : 223px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
