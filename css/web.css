@@ -140,6 +140,22 @@ div {
   text-align          : left;
   line-height         : 55.0px;
 }
+.web .agamifiedgoaltrac2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 351px;
+  height              : auto;
+  width               : 508px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 55.0px;
+}
 .web .turneverydaytasks {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1085px;
