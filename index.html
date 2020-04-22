@@ -15,8 +15,14 @@
             var theEmail = inputBox.value;
             console.log(theEmail)
             console.log(inputBox)
-            postEmail(theEmail, function() {
-                console.log(this.readyState, this.status, this.responseText)
+            postEmail(theEmail, inputBox);
+        }
+
+        function postEmail(email, inputBox)
+        {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                console.log(this)
                 if (this.readyState == 4 && this.status == 200) {
                     let res = this.responseText;
                     if(res.code == "success")
@@ -29,13 +35,7 @@
                     }
                     inputBox.value = "";
                 }
-            });
-        }
-
-        function postEmail(email, cb)
-        {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = cb();
+            }
             xhttp.open("GET", "https://starquest-backend.glitch.me/register?email="+email, true);
             xhttp.send();
         }
@@ -91,7 +91,7 @@
             </div>
             <div class="starquest">
                 <br />
-                <br /> Adventure
+                <br /> Achieve and Explore
             </div>
             <div class="parentsandkidscan">
                 <br />
@@ -99,7 +99,7 @@
             </div>
             <div class="withthestarsgaine">
                 <br />
-                <br />With the stars gained, kids can achieve real world rewards. Kids can travel to different planets in the universe, and see where their friends are located
+                <br />With the stars gained, kids can travel to different planets in the universe, and see where their friends are located
             </div>
             <img alt="Image" anima-src="./img/web-untitledartwork-85.png" class="untitledartwork85" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
             <div class="appfeatures">
