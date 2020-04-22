@@ -12,7 +12,9 @@
         function register1()
         {
             var inputBox = document.getElementById('emailin1');
-            var theEmail = inputBox.innerText;
+            var theEmail = inputBox.value;
+            console.log(theEmail)
+            console.log(inputBox)
             postEmail(theEmail, function() {
                 if (this.readyState == 4 && this.status == 200) {
                     let res = this.responseText;
@@ -24,7 +26,7 @@
                     {
                         alert("This email could not be registered.");
                     }
-                    inputBox.innerText = "";
+                    inputBox.value = "";
                 }
             });
         }
@@ -33,12 +35,13 @@
         {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = cb();
-            xhttp.open("GET", "http://starquest-backend.glitch.me/register?email="+email, true);
+            xhttp.open("GET", "https://starquest-backend.glitch.me/register?email="+email, true);
             xhttp.send();
         }
     </script>
     <meta content="AnimaApp.com - Design to code, Automated." name="author" />
 </head>
+<title> StarQuest </title>
 
 <body style="margin: 0;
  background: rgba(77, 56, 149, 1.0);">
