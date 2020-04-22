@@ -24,7 +24,7 @@
             xhttp.onreadystatechange = function() {
                 console.log(this)
                 if (this.readyState == 4 && this.status == 200) {
-                    let res = this.responseText;
+                    let res = JSON.parse(this.responseText);
                     if(res.code == "success")
                     {
                         alert("Thank you for registering! You will be contacted shortly.");
