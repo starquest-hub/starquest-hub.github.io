@@ -135,10 +135,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
-  font-size           : 38.0px;
+  font-size           : 45.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
-  line-height         : 55.0px;
+  line-height         : 90.0px;
 }
 .web .agamifiedgoaltrac2 {
   background-color    : rgba(255,255,255,0.0);
