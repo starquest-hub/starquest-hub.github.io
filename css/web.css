@@ -135,7 +135,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 50.0px;
+  font-size           : 40.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 55.0px;
@@ -151,7 +151,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Avenir-Medium", Helvetica, Arial, serif;
-  font-size           : 20.0px;
+  font-size           : 16.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 55.0px;
